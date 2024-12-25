@@ -15,5 +15,5 @@
 #执行脚本
 
 ```
-docker run --rm -it -v $(pwd)/data:/app/data -v $(pwd)/mariadb_list:/app/mariadb_list registry.digiwincloud.com.cn/bitnami/diff-schema-tool:1.01
+docker run --rm -it -v $(pwd)/data:/app/data -v $(pwd)/mariadb_list:/app/mariadb_list diff-schema-tool
 ```
