@@ -2,9 +2,9 @@
 
 # 提示输入目标数据库连接信息
 echo "把原始数据库更新成目标数据库的结构"
-read -p "请输入原始数据库的连接串(root:password@127.0.0.1:3306):" db_src_uri
+read -p "请输入原始数据库的连接串(root:password@127.0.0.1:3306):" db_dest_uri
 
-read -p "请输入目标数据库的连接串(root:password@127.0.0.1:3306):" db_dest_uri
+read -p "请输入目标数据库的连接串(root:password@127.0.0.1:3306):" db_src_uri
 echo
 
 # 读取数据库列表
